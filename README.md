@@ -5,3 +5,4 @@ reverse powershell
 Execute/Injection 
 - indirect file activity 
 - point of entry still under progress but phishing works always 
+- could hide in site if possible 
