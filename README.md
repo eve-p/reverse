@@ -1,8 +1,7 @@
-# reverse
-reverse powershell 
+# Reverse PowerShell connection
 
 ## Type II fileless malware 
 Execute/Injection 
 - indirect file activity 
 - point of entry still under progress but phishing works always 
-- could hide in site if possible 
+- could hide on webpage and use drivebydownload if possible 
